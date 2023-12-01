@@ -52,7 +52,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
+                    LemonadeSteps()
                 }
             }
         }
@@ -144,9 +144,6 @@ fun LemonadeSteps(modifier: Modifier = Modifier) {
 @Composable
 fun PrepareLimonadeApp() {
     LemonadeTheme {
-        LemonadeSteps(
-
-
-        )
+        LemonadeSteps()
     }
 }
